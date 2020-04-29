@@ -297,14 +297,14 @@ body {
   font-size: 32px;
   font-weight: 700;
   line-height: 40px;
-  color: #142149;
+  color: #1b212b;
 }
 
 .section-heading-text {
   font-size: 17px;
   line-height: 28px;
   font-weight: 300;
-  color: #525666;
+  color: #1b212b;
 }
 
 .services-main, .superiority-main {
@@ -337,7 +337,7 @@ body {
 .product-heading, .sitem-heading, .test-heading {
   font-weight: 500;
   font-size: 23px;
-  color: #142149;
+  color: #1b212b;
 }
 
 .beta-heading {
