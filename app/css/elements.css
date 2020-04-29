@@ -9,3 +9,77 @@
 .t-center {     /* designed to place text in the center */
   text-align: center !important;
 }
+
+/*
+
+  NEPTR SERVERS ELEMENTS: Buttons
+
+*/
+
+@media (min-width:300px) {
+  .btn-custom {
+    color: #fff;
+    border-radius: 2px !important;
+    background-color: #0085fc;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 100%
+  }
+
+  .dark-transparent {
+    color: #fff;
+    border-radius: 0 !important;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 100%;
+  }
+
+  .light-transparent {
+    color: #1b212b;
+    border-radius: 0 !important;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 100%;
+  }
+}
+
+@media (min-width:768px) {
+  .btn-custom {
+    color: #fff;
+    border-radius: 2px!important;
+    background-color: #0085fc;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: auto
+  }
+
+  .dark-transparent {
+    color: #fff;
+    border-radius: 0 !important;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: auto;
+  }
+
+  .light-transparent {
+    color: #1b212b;
+    border-radius: 0 !important;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: auto;
+  }
+}
+
+.dark-transparent:hover {
+  color: #fff;
+}
+
+.btn-custom:hover {
+  color: #fff
+}
