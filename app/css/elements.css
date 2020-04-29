@@ -1,0 +1,11 @@
+.v-center {     /* designed to be within a div */
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  z-index: 9
+}
+
+.t-center {     /* designed to place text in the center */
+  text-align: center !important;
+}
