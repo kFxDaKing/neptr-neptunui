@@ -1,0 +1,127 @@
+.v-center {     /* designed to be within a div */
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  z-index: 9
+}
+
+.t-center {     /* designed to place text in the center */
+  text-align: center !important;
+}
+
+.t-uppercase {  /* designed to make text uppercase */
+  text-transform: uppercase !important;
+}
+
+.t-italics {
+  font-style: italic !important;
+}
+
+.t-color-green {
+  color: #00b800 !important;
+}
+
+.t-color-blue {
+  color: #0085fc !important;
+}
+
+.t-color-red {
+  color: #e81c1c !important;
+}
+
+/*
+
+  NEPTR SERVERS ELEMENTS: Header
+
+*/
+
+.navbar-dropdown-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.navbar-dropdown-desc {
+  font-size: 12px;
+}
+
+/*
+
+  NEPTR SERVERS ELEMENTS: Buttons
+
+*/
+
+@media (min-width:300px) {
+  .btn-custom {
+    color: #fff;
+    border-radius: 0px !important;
+    background-color: #0085fc;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 100%;
+    text-transform: uppercase;
+  }
+
+  .dark-transparent {
+    color: #fff;
+    border-radius: 0 !important;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 100%;
+    text-transform: uppercase;
+  }
+
+  .light-transparent {
+    color: #1b212b;
+    border-radius: 0 !important;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 100%;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width:768px) {
+  .btn-custom {
+    color: #fff;
+    border-radius: 0px!important;
+    background-color: #0085fc;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: auto;
+    text-transform: uppercase;
+  }
+
+  .dark-transparent {
+    color: #fff;
+    border-radius: 0 !important;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: auto;
+    text-transform: uppercase;
+  }
+
+  .light-transparent {
+    color: #1b212b;
+    border-radius: 0 !important;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: auto;
+    text-transform: uppercase;
+  }
+}
+
+.dark-transparent:hover {
+  color: #fff;
+}
+
+.btn-custom:hover {
+  color: #fff
+}
